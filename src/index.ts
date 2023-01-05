@@ -1,7 +1,6 @@
 import 'dotenv/config';
 import WebSocket from 'ws';
 import { Message } from './classes';
-import { fruits, items } from './utils';
 
 const ws = new WebSocket('wss://gateway.discord.gg/?v=10&encoding=json');
 
